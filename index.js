@@ -1,8 +1,6 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 
-const token = 'NjM1MTg0MzU5NDk3NzkzNTU5.Xa4zxg.WmpscUNmcnhCa-X37yksZBAROYs';
-
 bot.on('ready', ()=>{
     console.log('This bot is online');
     bot.user.setActivity('I Love You, Colonel Sanders! A Finger Lickin’ Good Dating Simulator');
@@ -75,4 +73,4 @@ bot.on('message' , msg=>{
 };
 });
 
-bot.login(token);
+bot.login(process.env.BOT_TOKEN);
