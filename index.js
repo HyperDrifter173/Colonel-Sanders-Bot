@@ -75,4 +75,4 @@ bot.on('message' , msg=>{
 };
 });
  
-bot.login(process.env.'NjM1MTg0MzU5NDk3NzkzNTU5.XmLX_g.iZbSOqVxuF-Bx5yC4sxu3FJU3eI');
+bot.login(process.env.BOT_TOKEN);
